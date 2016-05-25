@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>us.dac.frymire</groupId>
-  <artifactId>ScalaTestTest</artifactId>
+  <artifactId>ScalaTestDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>ScalaTest Test</name>
   <description>Experiments with ScalaTest.</description>
@@ -28,11 +28,6 @@
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>2.16</version>
         <dependencies>
-          <dependency>
-            <groupId>us.dac</groupId>
-            <artifactId>review-config</artifactId>
-            <version>1.0</version>
-          </dependency>
           <!-- This is just to prevent a checkstyle error. -->
           <dependency>
             <groupId>org.slf4j</groupId>
