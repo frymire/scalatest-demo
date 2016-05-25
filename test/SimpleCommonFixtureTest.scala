@@ -1,4 +1,7 @@
 
+// Apparently, this is necessary to make the structural type member "builder" below visible.
+import language.reflectiveCalls
+
 import org.scalatest.{FlatSpec, Matchers}
 
 class SimpleCommonFixtureTest extends FlatSpec with Matchers {

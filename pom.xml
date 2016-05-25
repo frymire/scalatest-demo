@@ -5,7 +5,7 @@
   <groupId>us.dac.frymire</groupId>
   <artifactId>ScalaTestDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ScalaTest Test</name>
+  <name>ScalaTest Demo</name>
   <description>Experiments with ScalaTest.</description>
 
   <build>
@@ -21,25 +21,6 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-      </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.16</version>
-        <dependencies>
-          <!-- This is just to prevent a checkstyle error. -->
-          <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.7.5</version>
-          </dependency>
-          <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jdk14</artifactId>
-            <version>1.7.5</version>
-          </dependency>
-        </dependencies>
       </plugin>
 
       <plugin>
@@ -106,11 +87,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>19.0</version>
     </dependency>
     <dependency>
       <groupId>org.scalactic</groupId>
