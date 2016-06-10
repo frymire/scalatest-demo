@@ -73,15 +73,9 @@
               <pluginExecutions>
                 <pluginExecution>
                   <pluginExecutionFilter>
-                    <groupId>
-                      org.apache.maven.plugins
-                    </groupId>
-                    <artifactId>
-                      maven-checkstyle-plugin
-                    </artifactId>
-                    <versionRange>
-                      [2.16,)
-                    </versionRange>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
+                    <versionRange>[2.16,)</versionRange>
                     <goals>
                       <goal>check</goal>
                     </goals>
