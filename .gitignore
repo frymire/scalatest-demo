@@ -2,6 +2,11 @@
 *.log
 .cache-tests
 
+# Eclipse
+.settings
+.project
+.classpath
+
 # sbt specific
 .cache
 .history
