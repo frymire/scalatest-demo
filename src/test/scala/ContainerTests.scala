@@ -1,6 +1,6 @@
 
-import org.scalatest.{FlatSpec, Matchers}
 import org.scalatest.Inspectors.forAll
+import org.scalatest.{FlatSpec, Matchers}
 
 // We can use high-level matching syntax to check the contents of containers.
 class ContainerTests extends FlatSpec with Matchers {

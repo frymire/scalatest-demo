@@ -1,9 +1,9 @@
 
-import collection.mutable.Stack
-
-import org.scalatest.{FlatSpec, Matchers}
-import org.scalatest.tagobjects.Slow
 import org.scalatest.AppendedClues._
+import org.scalatest.tagobjects.Slow
+import org.scalatest.{FlatSpec, Matchers}
+
+import scala.collection.mutable.Stack
 
 class SimpleTest extends FlatSpec with Matchers {
   

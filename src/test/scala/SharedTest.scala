@@ -1,5 +1,5 @@
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.FlatSpec
 
 // Import behavior functions defined in the StackBehaviors trait to be reused across tests.
 class SharedTest extends FlatSpec with StackBehaviors {

@@ -1,5 +1,5 @@
 
-import org.scalatest.{FlatSpec, Failed}
+import org.scalatest.{Failed, FlatSpec}
 
 class NoArgFixtureTest extends FlatSpec {
 

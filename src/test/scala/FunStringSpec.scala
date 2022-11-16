@@ -1,6 +1,6 @@
 
-import org.scalatest.{FunSuite, fixture, DoNotDiscover, Ignore}
 import org.scalatest.tags.Slow
+import org.scalatest.{DoNotDiscover, FunSuite, Ignore, fixture}
 
 // You can also pass fixtures into tests with fixture.FunSuite
 class FunStringSpec extends fixture.FunSuite {

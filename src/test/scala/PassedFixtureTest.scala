@@ -1,5 +1,5 @@
 
-import org.scalatest.{fixture, Matchers}
+import org.scalatest.{Matchers, fixture}
 
 // You can also pass multiple fixtures into tests with fixture.FlatSpec
 class PassedFixtureTest extends fixture.FlatSpec with Matchers {

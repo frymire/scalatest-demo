@@ -1,7 +1,8 @@
 
-import java.io.{File, FileWriter}
-import org.scalatest.{FlatSpec, Matchers}
 import DatabaseServer._
+import org.scalatest.{FlatSpec, Matchers}
+
+import java.io.{File, FileWriter}
 
 // Using standard Scala programming, you can use a Loan pattern to 
 // compose fixtures made up of smaller mini-fixtures.

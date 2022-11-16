@@ -1,5 +1,5 @@
 
-import org.scalatest.{FlatSpec, BeforeAndAfter, Matchers}
+import org.scalatest.{BeforeAndAfter, FlatSpec, Matchers}
 
 class BeforeAndAfterTest extends FlatSpec with BeforeAndAfter with Matchers {
 
